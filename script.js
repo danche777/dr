@@ -94,14 +94,6 @@ function goNextPage() {
         const paper = papers[currentLocation - 1];
         paper.classList.add("flipped");
         paper.style.zIndex = currentLocation;
-        
-        if (currentLocation === 1) {
-            const shift = window.innerWidth < 480 ? "35%" : "50%";
-            book.style.transform = `translateX(${shift})`;
-        }
-        if (currentLocation === papers.length) {
-            book.style.transform = "translateX(100%)";
-        }
         currentLocation++;
     }
 }
@@ -113,13 +105,6 @@ function goPrevPage() {
         const paper = papers[currentLocation - 2];
         paper.classList.remove("flipped");
         paper.style.zIndex = papers.length - (currentLocation - 2);
-
-        if (currentLocation === 2) {
-            book.style.transform = "translateX(0%)";
-        } else if (currentLocation === papers.length + 1) {
-            const shift = window.innerWidth < 480 ? "35%" : "50%";
-            book.style.transform = `translateX(${shift})`;
-        }
         currentLocation--;
     }
 }
