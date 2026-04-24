@@ -10,7 +10,8 @@ const videoData = [
     { src: 'videos/video8.mp4', caption: 'Лера' },
     { src: 'videos/video9.mp4', caption: 'Даня' },
     { src: 'videos/video10.mp4', caption: 'Ярик' },
-    { src: 'videos/video11.mp4', caption: 'Ярик дубль 20' }
+    { src: 'videos/video11.mp4', caption: 'Ярик дубль 20' },
+    { src: 'videos/video12.mp4', caption: 'артур' }
 ];
 
 const book = document.querySelector("#book");
