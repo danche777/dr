@@ -100,9 +100,10 @@ main {
 
 .video-wrapper {
     position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
+    width: 100%;
     overflow: hidden;
+    background: #000;
+    aspect-ratio: 1;
 }
 
 .video-wrapper iframe {
@@ -112,6 +113,7 @@ main {
     width: 100%;
     height: 100%;
     border: none;
+    object-fit: cover;
 }
 
 .video-info {
