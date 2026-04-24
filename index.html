@@ -100,8 +100,31 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Кнопка для игры -->
+            <div class="game-button-container">
+                <button class="game-button" id="openGameBtn">
+                    <span>🎮</span> Сыграй в змейку!
+                </button>
+            </div>
         </div>
     </main>
+
+    <!-- Модальное окно игры -->
+    <div class="modal" id="gameModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeGameBtn">&times;</button>
+            <h2 class="modal-title">🐍 Змейка</h2>
+            <div class="game-container">
+                <canvas id="gameCanvas" width="300" height="300"></canvas>
+                <div class="game-info">
+                    <p>Счет: <span id="score">0</span></p>
+                    <p class="game-controls">Используй стрелки, WASD или свайпы</p>
+                    <button class="game-restart-btn" id="restartBtn">Заново</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <p>&copy; 2026 - С днем рождения! ❤️</p>
