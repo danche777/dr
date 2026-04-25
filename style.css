@@ -1,6 +1,6 @@
 :root {
-    --paper-color: #fdfdfd;
-    --line-color: #d1e1ee;
+    --paper-color: #ffdd92;
+    --line-color: #b3badd;
     --margin-color: #ffadad;
 }
 
@@ -12,8 +12,8 @@ body {
     justify-content: center;
     background-color: #dfdfdf;
     background-image: 
-        linear-gradient(var(--line-color) 1px, transparent 1px),
-        linear-gradient(90deg, var(--margin-color) 2px, transparent 2px);
+        linear-gradient(var(--line-color) 2px, transparent 1px),
+        linear-gradient(90deg, var(--margin-color) 1px, transparent 2px);
     background-size: 100% 30px, 100% 100%;
     background-position: 0 0, 50px 0;
     font-family: 'Montserrat', sans-serif;
@@ -67,7 +67,7 @@ body {
 
 .back {
     transform: rotateY(180deg);
-    background: #f0f0f0;
+    background: #d8bb7c;
 }
 
 .paper.flipped {
@@ -75,7 +75,7 @@ body {
 }
 
 .content {
-    padding: 40px 30px 30px 50px;
+    padding: 10px 30px 30px 50px;
     height: 100%;
     box-sizing: border-box;
     display: flex;
@@ -88,14 +88,15 @@ body {
     background: white;
     padding: 8px 8px 18px 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    width: 90%;
+    width: 70%;
+    height: 180px;
     margin-bottom: 15px;
     transform: rotate(-1deg);
 }
 
 .video-container {
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 13/9;
     background: #000;
 }
 

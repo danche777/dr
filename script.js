@@ -11,7 +11,9 @@ const videoData = [
     { src: 'videos/video9.mp4', caption: 'Даня' },
     { src: 'videos/video10.mp4', caption: 'Ярик' },
     { src: 'videos/video11.mp4', caption: 'Ярик дубль 20' },
-    { src: 'videos/video12.mp4', caption: 'артур' }
+    { src: 'videos/video12.mp4', caption: 'артур' },
+    { src: 'videos/video13.mp4', caption: '2 Дани, 1 Влад' },
+    { src: 'videos/video14.mp4', caption: 'Эля' }
 ];
 
 const book = document.querySelector("#book");
